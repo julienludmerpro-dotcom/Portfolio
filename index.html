@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1C2B4A">
+  <meta name="description" content="Portfolio de Julien Ludmer, étudiant en BTS SIO SISR : projets systèmes, réseaux et cybersécurité.">
+  <title>Julien Ludmer — Portfolio Systèmes & Réseaux</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="brand" href="#apropos" aria-label="Julien Ludmer, accueil"><span class="brand-mark">JL</span><span>Julien Ludmer<span class="brand-sub">Systèmes · Réseaux · Sécurité</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#apropos" class="nav-tab active" data-tab="apropos">À propos</a></li>
+        <li><a href="#projets" class="nav-tab" data-tab="projets">Projets</a></li>
+        <li><a href="#experiences" class="nav-tab" data-tab="experiences">Parcours</a></li>
+        <li><a href="#veille" class="nav-tab" data-tab="veille">Veille</a></li>
+        <li><a href="#certifications" class="nav-tab" data-tab="certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-tab nav-contact" data-tab="contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="main-container">
+    <section id="apropos" class="tab-content active" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot"></span> PORTFOLIO · BTS SIO SISR</p>
+          <h1 id="hero-title">Construire des infrastructures <span class="gradient-text">fiables et sécurisées.</span></h1>
+          <p class="hero-lead">Je suis Julien Ludmer, étudiant en 2ème année de BTS SIO option SISR au lycée Jean Lurçat à Perpignan. Je développe mes compétences en administration systèmes, réseaux et cybersécurité.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projets" data-go-tab="projets">Découvrir mes projets <span aria-hidden="true">↘</span></a>
+            <a class="btn btn-secondary" href="#contact" data-go-tab="contact">Me contacter</a>
+          </div>
+          <div class="availability"><span class="availability-dot"></span><span>Recherche un stage de 6 semaines</span><span class="availability-date">04 janv. — 13 févr. 2027 · Montpellier</span></div>
+        </div>
+        <aside class="profile-panel">
+          <div class="panel-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="mono">profil.sys</span><span class="online-label">EN FORMATION</span></div>
+          <div class="profile-avatar">JL</div>
+          <h2>Julien Ludmer</h2>
+          <p class="profile-role">Étudiant · Systèmes & Réseaux</p>
+          <div class="profile-divider"></div>
+          <dl class="profile-details">
+            <div><dt>Formation</dt><dd>BTS SIO · SISR</dd></div>
+            <div><dt>Localisation</dt><dd>Perpignan, Occitanie</dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:julien.ludmer.pro@gmail.com">julien.ludmer.pro@gmail.com</a></dd></div>
+            <div><dt>LinkedIn</dt><dd><span>www.linkedin.com/in/julien-ludmer</span></dd></div>
+          </dl>
+          <a class="btn btn-primary btn-wide" target = _blank href="./docs/CV_Julien_Ludmer_BTS_SIO_SISR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a>
+        </aside>
+      </div>
+
+      <div class="section-heading compact-heading"><p class="eyebrow">MON APPROCHE</p><h2>Technique, méthode et sens du service.</h2></div>
+      <div class="value-grid">
+        <article class="value-card"><span class="icon-box">01</span><h3>Administration systèmes</h3><p>Gestion des environnements Windows Server et Linux, services d'annuaire, politiques de groupe et partages de fichiers.</p></article>
+        <article class="value-card"><span class="icon-box">02</span><h3>Réseaux & virtualisation</h3><p>Segmentation réseau, services DNS/DHCP, pare-feu, machines virtuelles et interconnexion de sites.</p></article>
+        <article class="value-card"><span class="icon-box">03</span><h3>Rigueur opérationnelle</h3><p>Mon engagement comme sapeur-pompier volontaire et mon expérience de cadet de la Gendarmerie m'ont sensibilisé au travail d'équipe, aux priorités et au service public.</p></article>
+      </div>
+      <div class="next-step"><div><p class="eyebrow">PROCHAINE ÉTAPE</p><h2>Continuer à progresser en infrastructure et cloud.</h2><p>Après le BTS SIO SISR, je souhaite poursuivre en bachelor ou licence professionnelle orientée systèmes, réseaux et cloud, puis viser un diplôme de niveau 7.</p></div><span class="next-step-mark" aria-hidden="true">↗</span></div>
+    </section>
+
+    <section id="projets" class="tab-content" aria-labelledby="projects-title">
+      <div class="section-heading"><p class="eyebrow">RÉALISATIONS</p><h1 id="projects-title">Projets techniques</h1><p>Des mises en situation autour de l'administration, de la disponibilité et de la sécurisation des infrastructures.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-top"><span class="project-index">01 / SYSTÈMES</span><span class="status-pill status-stage"><i></i> Expérience de stage</span></div>
+          <h2>Infrastructure Active Directory & serveur de fichiers</h2>
+          <p class="project-context">Office de Tourisme Intercommunal · 2026</p>
+          <p>Participation à la migration et à la sécurisation d'une infrastructure de fichiers : structuration des unités organisationnelles, gestion des droits sur les partages SMB/NTFS et application de stratégies d'administration.</p>
+          <ul class="feature-list"><li>Organisation d'Active Directory et des OU</li><li>Gestion des droits d'accès et groupes (approche AGDLP)</li><li>GPO de sécurité et administration locale avec LAPS</li><li>PKI : notions et intégration selon le périmètre du projet</li></ul>
+          <div class="tag-list"><span>Active Directory</span><span>Windows Server 2022</span><span>GPO</span><span>LAPS</span><span>SMB / NTFS</span><span>PKI</span></div>
+          <button type="button" class="text-link js-open-docs" data-title="Infrastructure Active Directory — OTI" data-dossier="docs/dossier-technique-oti.pdf" data-rapport="docs/Documentation_Propre.pdf">Consulter les documents <span aria-hidden="true">→</span></button>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">02 / RÉSEAUX</span><span class="status-pill status-learning"><i></i> Formation</span></div>
+          <h2>Infrastructure virtuelle multi-sites sécurisée</h2>
+          <p class="project-context">Maquette inter-sites · Perpignan / Bordeaux</p>
+          <p>Conception d'une maquette d'infrastructure multi-sites avec virtualisation, interconnexion sécurisée et segmentation des services réseau.</p>
+          <ul class="feature-list"><li>Virtualisation et déploiement de machines</li><li>VPN IPsec et règles de filtrage</li><li>VLAN, routage et zone DMZ</li><li>Services DNS/DHCP et annuaire</li></ul>
+          <div class="tag-list"><span>Proxmox VE</span><span>OPNsense / pfSense</span><span>VPN IPsec</span><span>VLAN</span><span>Linux</span><span>Windows Server</span></div>
+          <button type="button" class="text-link js-open-docs" data-title="Infrastructure multi-sites — projet de formation" data-dossier="./docs/Documentation_Projet_Perpignan_Bordeaux.pdf">Consulter le dossier technique <span aria-hidden="true">→</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiences" class="tab-content" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">PARCOURS</p><h1 id="experience-title">Formation & expériences</h1><p>Un parcours technique complété par un engagement citoyen.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-date">2026</div><div class="timeline-content"><span class="timeline-type">EXPÉRIENCE PROFESSIONNELLE</span><h2>Stage informatique — Communauté de communes / OTI</h2><p class="timeline-place">Argelès-sur-Mer</p><p>Travaux autour de l'infrastructure Active Directory et du serveur de fichiers : organisation des accès, GPO, sécurisation des postes et documentation technique.</p><div class="tag-list"><span>Active Directory</span><span>Windows Server</span><span>GPO</span><span>SMB / NTFS</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">2025 — en cours</div><div class="timeline-content"><span class="timeline-type">FORMATION</span><h2>BTS Services Informatiques aux Organisations — option SISR</h2><p class="timeline-place">Lycée Jean Lurçat · Perpignan</p><p>Administration des systèmes et des réseaux, virtualisation, services d'infrastructure, support et sécurisation des environnements informatiques.</p><div class="tag-list"><span>SISR</span><span>Réseaux</span><span>Virtualisation</span><span>Cybersécurité</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">2022-2025</div><div class="timeline-content"><span class="timeline-type">FORMATION</span><h2>Baccalauréat professionnel MELEC</h2><p class="timeline-place">Métiers de l'électricité et de ses environnements connectés</p><p>Formation apportant des bases en installations électriques, câblage, lecture de schémas et environnement technique des infrastructures.</p></div></article>
+        <article class="timeline-item"><div class="timeline-date">Engagement</div><div class="timeline-content"><span class="timeline-type">CITOYENNETÉ</span><h2>Sapeur-pompier volontaire & ancien cadet de la Gendarmerie</h2><p>Engagements qui développent le sens du collectif, la discipline, la réactivité et le respect des procédures.</p></div></article>
+      </div>
+    </section>
+
+    <section id="veille" class="tab-content" aria-labelledby="veille-title">
+      <div class="section-heading"><p class="eyebrow">APPRENDRE EN CONTINU</p><h1 id="veille-title">Veille technologique</h1><p>Suivre les évolutions pour mieux comprendre les risques et les bonnes pratiques de sécurisation des infrastructures.</p></div>
+      <article class="feature-banner"><span class="feature-icon">⌁</span><div><p class="eyebrow">SUJET PRINCIPAL</p><h2>Sécuriser Active Directory face au mouvement latéral et à l'élévation de privilèges</h2><p>Axes suivis : gestion des comptes à privilèges, Windows LAPS, Kerberos, modèle d'administration par niveaux (tiering), journalisation et réduction de la surface d'attaque.</p></div></article>
+      <div class="section-heading subheading"><p class="eyebrow">SOURCES DE VEILLE</p><h2>Sources institutionnelles et spécialisées</h2></div>
+      <div class="source-grid">
+        <a class="source-card" href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener"><span class="source-label">INSTITUTIONNEL</span><h3>CERT-FR</h3><p>Alertes, avis et bulletins de sécurité.</p><span class="source-arrow">↗</span></a>
+        <a class="source-card" href="https://cyber.gouv.fr/" target="_blank" rel="noopener"><span class="source-label">INSTITUTIONNEL</span><h3>ANSSI</h3><p>Guides et recommandations de cybersécurité.</p><span class="source-arrow">↗</span></a>
+        <a class="source-card" href="https://learn.microsoft.com/fr-fr/windows-server/identity/laps/laps-overview" target="_blank" rel="noopener"><span class="source-label">ÉDITEUR</span><h3>Microsoft Learn — Windows LAPS</h3><p>Documentation officielle sur la gestion des mots de passe administrateur locaux.</p><span class="source-arrow">↗</span></a>
+        <a class="source-card" href="https://www.lemagit.fr/" target="_blank" rel="noopener"><span class="source-label">PRESSE IT</span><h3>LeMagIT</h3><p>Actualités et analyses autour des systèmes et de la sécurité.</p><span class="source-arrow">↗</span></a>
+        <a class="source-card" href="https://www.zdnet.fr/" target="_blank" rel="noopener"><span class="source-label">PRESSE IT</span><h3>ZDNET</h3><p>Actualités technologiques et cybersécurité.</p><span class="source-arrow">↗</span></a>
+        <div class="source-card source-static"><span class="source-label">AGRÉGATION</span><h3>Feedly</h3><p>Regrouper les flux et consulter régulièrement les nouvelles publications.</p></div>
+      </div>
+      <div class="reading-note"><div><p class="eyebrow">LECTURE À EXPLORER</p><h2>Windows LAPS : principes et déploiement</h2><p>La documentation Microsoft constitue une source primaire pour comprendre le fonctionnement de Windows LAPS, ses prérequis et son intégration dans un environnement Windows.</p></div><a class="btn btn-secondary" href="https://learn.microsoft.com/fr-fr/windows-server/identity/laps/laps-overview" target="_blank" rel="noopener">Lire la documentation <span aria-hidden="true">↗</span></a></div>
+      <div class="privacy-card"><p class="eyebrow">VEILLE JURIDIQUE</p><h2>Protection des données et bonnes pratiques</h2><p>Lors des travaux sur une infrastructure, limiter l'accès aux seules personnes autorisées, protéger les identifiants, éviter d'exposer des données personnelles dans les captures d'écran et anonymiser les éléments sensibles dans les documents publiés. Références : <a href="https://www.cnil.fr/" target="_blank" rel="noopener">CNIL</a> et <a href="https://cyber.gouv.fr/" target="_blank" rel="noopener">ANSSI</a>.</p></div>
+    </section>
+
+    <section id="certifications" class="tab-content" aria-labelledby="certifications-title">
+      <div class="section-heading"><p class="eyebrow">VALIDER LES ACQUIS</p><h1 id="certifications-title">Certifications & attestations</h1><p>Parcours et ressources de validation des compétences numériques. Les dates et justificatifs peuvent être ajoutés lorsqu'ils sont disponibles.</p></div>
+      <div class="cert-grid">
+        <article class="cert-card"><div class="cert-symbol">CC</div><span class="cert-type">RÉSEAUX</span><h2>Introduction aux réseaux</h2><p class="cert-provider">Cisco Networking Academy</p><p>Fondamentaux des réseaux, modèles OSI et TCP/IP, adressage, commutation et principes de configuration réseau.</p><a class="text-link" href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy <span>↗</span></a><p class="cert-footnote">Indiquer ici l'intitulé exact et la date figurant sur l'attestation obtenue.</p></article>
+        <article class="cert-card"><div class="cert-symbol">PX</div><span class="cert-type">COMPÉTENCES NUMÉRIQUES</span><h2>Pix</h2><p class="cert-provider">Pix</p><p>Évaluation et développement des compétences numériques.</p><a class="text-link" href="https://pix.fr/" target="_blank" rel="noopener">Site officiel Pix <span>↗</span></a><p class="cert-footnote">Joindre l'attestation ou le certificat si disponible.</p></article>
+        <article class="cert-card"><div class="cert-symbol">SEC</div><span class="cert-type">CYBERSÉCURITÉ</span><h2>SecNumacadémie</h2><p class="cert-provider">ANSSI</p><p>Ressources de sensibilisation aux principes de cybersécurité et aux risques courants.</p><a class="text-link" href="https://secnumacademie.gouv.fr/" target="_blank" rel="noopener">Accéder à la plateforme <span>↗</span></a><p class="cert-footnote">Mentionner les modules suivis et la date uniquement si validés.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="tab-content" aria-labelledby="contact-title">
+      <div class="contact-layout"><div class="contact-copy"><p class="eyebrow">CONTACT</p><h1 id="contact-title">Parlons de votre infrastructure.</h1><p>Vous recherchez un stagiaire motivé en systèmes et réseaux ? Je serais heureux d'échanger sur vos besoins et sur les compétences que je peux développer au sein de votre équipe.</p><div class="contact-highlight"><span class="availability-dot"></span><div><strong>Stage BTS SIO SISR</strong><span>Du 4 janvier au 13 février 2027 · Montpellier</span></div></div></div><div class="contact-card"><p class="eyebrow">COORDONNÉES</p><div class="contact-row"><span class="contact-icon">@</span><div><small>EMAIL</small><a href="mailto:julien.ludmer.pro@gmail.com">julien.ludmer.pro@gmail.com</a></div></div><div class="contact-row"><span class="contact-icon">⌖</span><div><small>LOCALISATION</small><strong>Perpignan · Montpellier recherché pour le stage</strong></div></div><div class="contact-row"><span class="contact-icon">in</span><div><small>LINKEDIN</small><span class="muted">www.linkedin.com/in/julien-ludmer
+
+</span></div></div><a class="btn btn-primary btn-wide" href="mailto:julien.ludmer.pro@gmail.com?subject=Contact%20%E2%80%94%20Portfolio%20Julien%20Ludmer">Envoyer un email <span aria-hidden="true">↗</span></a><a class="btn btn-secondary btn-wide" target = _blank href="./docs/CV_Julien_Ludmer_BTS_SIO_SISR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="#apropos" data-go-tab="apropos"><span class="brand-mark">JL</span><span>Julien Ludmer<span class="brand-sub">Portfolio SISR</span></span></a><p>Portfolio étudiant · Systèmes, réseaux & cybersécurité</p><a href="#apropos" data-go-tab="apropos" class="back-top">Retour en haut ↑</a></div><p class="footer-bottom">© <span id="current-year">2026</span> Julien Ludmer · Réalisé avec soin.</p></footer>
+
+  <div class="modal-overlay" id="docs-modal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="docs-modal-title" aria-describedby="docs-modal-description">
+      <button type="button" class="modal-close" aria-label="Fermer la fenêtre">&times;</button>
+      <p class="eyebrow">RESSOURCES DU PROJET</p><h2 class="modal-title" id="docs-modal-title">Documents du projet</h2><p class="modal-subtitle" id="docs-modal-description">Choisissez le document à consulter. Seuls les fichiers renseignés sont affichés.</p>
+      <div class="modal-choices"><a class="modal-choice" id="link-dossier" href="#" target="_blank" rel="noopener"><span class="document-icon">▤</span><span><strong>Dossier technique</strong><small>Contexte, mise en œuvre et captures</small></span><span class="choice-arrow">↗</span></a><a class="modal-choice" id="link-rapport" href="#" target="_blank" rel="noopener"><span class="document-icon">▧</span><span><strong>Rapport de stage</strong><small>Missions, démarche et bilan</small></span><span class="choice-arrow">↗</span></a></div>
+      <p class="modal-file-note" id="modal-file-note" role="status"></p>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const tabs = [...document.querySelectorAll('.nav-tab')];
+      const sections = [...document.querySelectorAll('.tab-content')];
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      const modal = document.getElementById('docs-modal');
+      const dossierLink = document.getElementById('link-dossier');
+      const rapportLink = document.getElementById('link-rapport');
+      const fileNote = document.getElementById('modal-file-note');
+      let lastTrigger = null;
+
+      function showTab(id, updateHistory = true) {
+        const target = document.getElementById(id);
+        if (!target || !target.classList.contains('tab-content')) return;
+        sections.forEach(section => {
+          const active = section === target;
+          section.classList.toggle('active', active);
+          section.setAttribute('aria-hidden', String(!active));
+        });
+        tabs.forEach(tab => {
+          const active = tab.dataset.tab === id;
+          tab.classList.toggle('active', active);
+          if (active) tab.setAttribute('aria-current', 'page');
+          else tab.removeAttribute('aria-current');
+        });
+        if (updateHistory) history.replaceState(null, '', '#' + id);
+        menuToggle.setAttribute('aria-expanded', 'false');
+        navLinks.classList.remove('is-open');
+        window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      }
+
+      tabs.forEach(tab => tab.addEventListener('click', event => {
+        event.preventDefault();
+        showTab(tab.dataset.tab);
+      }));
+      document.querySelectorAll('[data-go-tab]').forEach(link => link.addEventListener('click', event => {
+        event.preventDefault();
+        showTab(link.dataset.goTab);
+      }));
+      menuToggle.addEventListener('click', () => {
+        const open = menuToggle.getAttribute('aria-expanded') !== 'true';
+        menuToggle.setAttribute('aria-expanded', String(open));
+        navLinks.classList.toggle('is-open', open);
+      });
+      const initialTab = location.hash.slice(1);
+      if (initialTab && document.getElementById(initialTab)?.classList.contains('tab-content')) showTab(initialTab, false);
+      else showTab('apropos', false);
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
+      function openModal(button) {
+        lastTrigger = button;
+        document.getElementById('docs-modal-title').textContent = button.dataset.title || 'Documents du projet';
+        const dossier = button.dataset.dossier || '';
+        const rapport = button.dataset.rapport || '';
+        dossierLink.href = dossier || '#';
+        rapportLink.href = rapport || '#';
+        dossierLink.hidden = !dossier;
+        rapportLink.hidden = !rapport;
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('modal-open');
+        modal.querySelector('.modal-close').focus();
+      }
+      function closeModal() {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('modal-open');
+        if (lastTrigger) lastTrigger.focus();
+      }
+      document.querySelectorAll('.js-open-docs').forEach(button => button.addEventListener('click', () => openModal(button)));
+      modal.querySelector('.modal-close').addEventListener('click', closeModal);
+      modal.addEventListener('click', event => { if (event.target === modal) closeModal(); });
+      document.addEventListener('keydown', event => { if (event.key === 'Escape' && modal.classList.contains('open')) closeModal(); });
+      [dossierLink, rapportLink].forEach(link => link.addEventListener('click', event => { if (!link.href || link.getAttribute('href') === '#') event.preventDefault(); }));
+    })();
+  </script>
+</body>
+</html>
