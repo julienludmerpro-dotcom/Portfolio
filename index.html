@@ -20,6 +20,7 @@
       <ul class="nav-links" id="nav-links">
         <li><a href="#apropos" class="nav-tab active" data-tab="apropos">À propos</a></li>
         <li><a href="#projets" class="nav-tab" data-tab="projets">Projets</a></li>
+        <li><a href="#competences" class="nav-tab" data-tab="competences">Compétences</a></li>
         <li><a href="#experiences" class="nav-tab" data-tab="experiences">Parcours</a></li>
         <li><a href="#veille" class="nav-tab" data-tab="veille">Veille</a></li>
         <li><a href="#certifications" class="nav-tab" data-tab="certifications">Certifications</a></li>
@@ -34,7 +35,7 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="pulse-dot"></span> PORTFOLIO · BTS SIO SISR</p>
           <h1 id="hero-title">Construire des infrastructures <span class="gradient-text">fiables et sécurisées.</span></h1>
-          <p class="hero-lead">Je suis Julien Ludmer, étudiant en 2ème année de BTS SIO option SISR au lycée Jean Lurçat à Perpignan. Je développe mes compétences en administration systèmes, réseaux et cybersécurité.</p>
+          <p class="hero-lead">Étudiant en 2ᵉ année de BTS SIO option SISR, je me spécialise dans l'administration des systèmes, des réseaux et la cybersécurité. Lors de mon premier stage en collectivité territoriale, j'ai participé à la modernisation d'une infrastructure Active Directory et à la sécurisation des postes. Je recherche un stage de 6 semaines à Montpellier, du 4 janvier au 13 février 2027.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projets" data-go-tab="projets">Découvrir mes projets <span aria-hidden="true">↘</span></a>
             <a class="btn btn-secondary" href="#contact" data-go-tab="contact">Me contacter</a>
@@ -51,9 +52,9 @@
             <div><dt>Formation</dt><dd>BTS SIO · SISR</dd></div>
             <div><dt>Localisation</dt><dd>Perpignan, Occitanie</dd></div>
             <div><dt>Email</dt><dd><a href="mailto:julien.ludmer.pro@gmail.com">julien.ludmer.pro@gmail.com</a></dd></div>
-            <div><dt>LinkedIn</dt><dd><span>www.linkedin.com/in/julien-ludmer</span></dd></div>
+            <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/julien-ludmer" target="_blank" rel="noopener">www.linkedin.com/in/julien-ludmer</a></dd></div>
           </dl>
-          <a class="btn btn-primary btn-wide" target = _blank href="./docs/CV_Julien_Ludmer_BTS_SIO_SISR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-primary btn-wide" target="_blank" rel="noopener" href="./docs/CV_Julien_Ludmer_BTS_SIO_SISR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a>
         </aside>
       </div>
 
@@ -72,10 +73,19 @@
         <article class="project-card project-featured">
           <div class="project-top"><span class="project-index">01 / SYSTÈMES</span><span class="status-pill status-stage"><i></i> Expérience de stage</span></div>
           <h2>Infrastructure Active Directory & serveur de fichiers</h2>
-          <p class="project-context">Office de Tourisme Intercommunal · 2026</p>
+          <p class="project-context">Office de Tourisme Intercommunal · 2026</p><ul class="keyfigs" aria-label="Chiffres clés du projet"><li><strong>7</strong><span>offices de tourisme</span></li><li><strong>13</strong><span>unités d'organisation</span></li><li><strong>≈ 30</strong><span>utilisateurs</span></li><li><strong>≈ 30</strong><span>postes sécurisés</span></li></ul>
           <p>Participation à la migration et à la sécurisation d'une infrastructure de fichiers : structuration des unités organisationnelles, gestion des droits sur les partages SMB/NTFS et application de stratégies d'administration.</p>
           <ul class="feature-list"><li>Organisation d'Active Directory et des OU</li><li>Gestion des droits d'accès et groupes (approche AGDLP)</li><li>GPO de sécurité et administration locale avec LAPS</li><li>PKI : notions et intégration selon le périmètre du projet</li></ul>
           <div class="tag-list"><span>Active Directory</span><span>Windows Server 2022</span><span>GPO</span><span>LAPS</span><span>SMB / NTFS</span><span>PKI</span></div>
+          <details class="case"><summary>Voir l'étude de cas</summary><div class="case-body">
+<section><h3>1. Présentation du projet</h3><dl><div><dt>CONTEXTE</dt><dd>Stage en collectivité territoriale — Office de Tourisme Intercommunal, 2026.</dd></div><div><dt>PROBLÉMATIQUE</dt><dd>Moderniser l'infrastructure Active Directory de plusieurs offices de tourisme et migrer le stockage de fichiers de Nextcloud vers un serveur SMB/NTFS.</dd></div><div><dt>OBJECTIFS</dt><dd>Structurer l'annuaire en unités d'organisation, contrôler les accès aux partages et appliquer des stratégies de sécurité aux postes.</dd></div></dl></section>
+<section><h3>2. Environnement technique</h3><div class="tag-list"><span>Windows Server 2022</span><span>Active Directory</span><span>GPO</span><span>LAPS</span><span>SMB / NTFS</span><span>AGDLP</span></div></section>
+<section><h3>3. Mes réalisations</h3><ul class="feature-list"><li>Participation à la migration de Nextcloud vers un serveur de fichiers SMB/NTFS</li><li>Organisation d'Active Directory et des unités d'organisation</li><li>Gestion des droits d'accès et des groupes (approche AGDLP)</li><li>Application de GPO de sécurité et administration locale avec LAPS</li><li>Rédaction de la documentation technique</li></ul></section>
+<section><h3>4. Architecture technique</h3><p class="placeholder">Emplacement du schéma (architecture Active Directory, anonymisée) — fichier à ajouter : images/projet1-architecture.png</p></section>
+<section><h3>5. Captures techniques</h3><ul class="gallery"><li class="placeholder">Capture 1 — console d'administration</li><li class="placeholder">Capture 2 — configuration d'un service</li><li class="placeholder">Capture 3 — test de vérification</li></ul><!-- Pour chaque capture : <li><button type="button" data-full="images/projet1-1.png" data-alt="Description"><img src="images/projet1-1.png" alt="Description" loading="lazy" width="640" height="400"></button></li> --><p class="placeholder">Captures à anonymiser (aucun nom réel, adresse IP ni identifiant) avant publication.</p></section>
+<section><h3>6. Résultats obtenus</h3><p class="placeholder">À rédiger : ce qui fonctionne en fin de projet et comment cela a été vérifié.</p></section>
+<section><h3>7. Difficultés rencontrées et solutions</h3><p class="placeholder">À rédiger avec les problèmes réellement rencontrés.</p></section>
+</div></details>
           <button type="button" class="text-link js-open-docs" data-title="Infrastructure Active Directory — OTI" data-dossier="docs/dossier-technique-oti.pdf" data-rapport="docs/Documentation_Propre.pdf">Consulter les documents <span aria-hidden="true">→</span></button>
         </article>
         <article class="project-card">
@@ -85,9 +95,23 @@
           <p>Conception d'une maquette d'infrastructure multi-sites avec virtualisation, interconnexion sécurisée et segmentation des services réseau.</p>
           <ul class="feature-list"><li>Virtualisation et déploiement de machines</li><li>VPN IPsec et règles de filtrage</li><li>VLAN, routage et zone DMZ</li><li>Services DNS/DHCP et annuaire</li></ul>
           <div class="tag-list"><span>Proxmox VE</span><span>OPNsense / pfSense</span><span>VPN IPsec</span><span>VLAN</span><span>Linux</span><span>Windows Server</span></div>
+          <details class="case"><summary>Voir l'étude de cas</summary><div class="case-body">
+<section><h3>1. Présentation du projet</h3><dl><div><dt>CONTEXTE</dt><dd>Projet de formation BTS SIO SISR — maquette inter-sites Perpignan / Bordeaux.</dd></div><div><dt>PROBLÉMATIQUE</dt><dd>Interconnecter deux sites de façon sécurisée et séparer les services réseau.</dd></div><div><dt>OBJECTIFS</dt><dd>Virtualiser les machines, sécuriser l'interconnexion, segmenter le réseau et fournir les services DNS/DHCP et d'annuaire.</dd></div></dl></section>
+<section><h3>2. Environnement technique</h3><div class="tag-list"><span>Proxmox VE</span><span>OPNsense / pfSense</span><span>VPN IPsec</span><span>VLAN</span><span>Linux</span><span>Windows Server</span></div></section>
+<section><h3>3. Mes réalisations</h3><ul class="feature-list"><li>Virtualisation et déploiement de machines</li><li>Configuration d'un VPN IPsec et de règles de filtrage</li><li>Mise en place de VLAN, du routage et d'une zone DMZ</li><li>Configuration des services DNS/DHCP et d'un annuaire</li></ul></section>
+<section><h3>4. Architecture technique</h3><p class="placeholder">Emplacement du schéma (topologie des deux sites) — fichier à ajouter : images/projet2-architecture.png</p></section>
+<section><h3>5. Captures techniques</h3><ul class="gallery"><li class="placeholder">Capture 1 — console d'administration</li><li class="placeholder">Capture 2 — configuration d'un service</li><li class="placeholder">Capture 3 — test de vérification</li></ul><!-- Pour chaque capture : <li><button type="button" data-full="images/projet2-1.png" data-alt="Description"><img src="images/projet2-1.png" alt="Description" loading="lazy" width="640" height="400"></button></li> --><p class="placeholder">Captures à anonymiser (aucun nom réel, adresse IP ni identifiant) avant publication.</p></section>
+<section><h3>6. Résultats obtenus</h3><p class="placeholder">À rédiger : ce qui fonctionne en fin de projet et comment cela a été vérifié.</p></section>
+<section><h3>7. Difficultés rencontrées et solutions</h3><p class="placeholder">À rédiger avec les problèmes réellement rencontrés.</p></section>
+</div></details>
           <button type="button" class="text-link js-open-docs" data-title="Infrastructure multi-sites — projet de formation" data-dossier="./docs/Documentation_Projet_Perpignan_Bordeaux.pdf">Consulter le dossier technique <span aria-hidden="true">→</span></button>
         </article>
       </div>
+    </section>
+
+    <section id="competences" class="tab-content" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow">COMPÉTENCES TECHNIQUES</p><h1 id="skills-title">Ce que je sais utiliser</h1><p>Chaque compétence est rattachée au projet ou à la formation qui la met en pratique.</p></div>
+      <div class="skills-grid"><article class="skill-card"><h2>Systèmes et administration</h2><ul class="skill-list"><li>Windows Server 2022<small>Projet 01</small></li><li>Active Directory · OU<small>Projet 01</small></li><li>GPO<small>Projet 01</small></li><li>Windows LAPS<small>Projet 01</small></li><li>SMB / NTFS · AGDLP<small>Projet 01</small></li><li>Linux<small>Projet 02</small></li></ul></article><article class="skill-card"><h2>Réseaux et sécurité</h2><ul class="skill-list"><li>TCP/IP<small>Cisco · CCNA 1</small></li><li>VLAN · routage<small>Projet 02</small></li><li>DNS / DHCP<small>Projet 02</small></li><li>VPN IPsec<small>Projet 02</small></li><li>OPNsense / pfSense<small>Projet 02</small></li><li>DMZ · segmentation<small>Projet 02</small></li><li>PKI (notions)<small>Projet 01</small></li></ul></article><article class="skill-card"><h2>Virtualisation et outils</h2><ul class="skill-list"><li>Proxmox VE<small>Projet 02</small></li><li>Déploiement de machines virtuelles<small>Projet 02</small></li></ul></article></div>
     </section>
 
     <section id="experiences" class="tab-content" aria-labelledby="experience-title">
@@ -96,6 +120,7 @@
         <article class="timeline-item"><div class="timeline-date">2026</div><div class="timeline-content"><span class="timeline-type">EXPÉRIENCE PROFESSIONNELLE</span><h2>Stage informatique — Communauté de communes / OTI</h2><p class="timeline-place">Argelès-sur-Mer</p><p>Travaux autour de l'infrastructure Active Directory et du serveur de fichiers : organisation des accès, GPO, sécurisation des postes et documentation technique.</p><div class="tag-list"><span>Active Directory</span><span>Windows Server</span><span>GPO</span><span>SMB / NTFS</span></div></div></article>
         <article class="timeline-item"><div class="timeline-date">2025 — en cours</div><div class="timeline-content"><span class="timeline-type">FORMATION</span><h2>BTS Services Informatiques aux Organisations — option SISR</h2><p class="timeline-place">Lycée Jean Lurçat · Perpignan</p><p>Administration des systèmes et des réseaux, virtualisation, services d'infrastructure, support et sécurisation des environnements informatiques.</p><div class="tag-list"><span>SISR</span><span>Réseaux</span><span>Virtualisation</span><span>Cybersécurité</span></div></div></article>
         <article class="timeline-item"><div class="timeline-date">2022-2025</div><div class="timeline-content"><span class="timeline-type">FORMATION</span><h2>Baccalauréat professionnel MELEC</h2><p class="timeline-place">Métiers de l'électricité et de ses environnements connectés</p><p>Formation apportant des bases en installations électriques, câblage, lecture de schémas et environnement technique des infrastructures.</p></div></article>
+        <article class="timeline-item"><div class="timeline-date">2023</div><div class="timeline-content"><span class="timeline-type">STAGE ERASMUS</span><h2>Stage au Port de Roses (Espagne)</h2><p>Stage en milieu professionnel à l'étranger, dans le cadre d'un programme Erasmus. Il m'a apporté une expérience technique ainsi que de l'autonomie, de l'adaptation et du travail en équipe.</p><div class="tag-list"><span>Autonomie</span><span>Adaptation</span><span>Travail en équipe</span></div></div></article>
         <article class="timeline-item"><div class="timeline-date">Engagement</div><div class="timeline-content"><span class="timeline-type">CITOYENNETÉ</span><h2>Sapeur-pompier volontaire & ancien cadet de la Gendarmerie</h2><p>Engagements qui développent le sens du collectif, la discipline, la réactivité et le respect des procédures.</p></div></article>
       </div>
     </section>
@@ -117,18 +142,17 @@
     </section>
 
     <section id="certifications" class="tab-content" aria-labelledby="certifications-title">
-      <div class="section-heading"><p class="eyebrow">VALIDER LES ACQUIS</p><h1 id="certifications-title">Certifications & attestations</h1><p>Parcours et ressources de validation des compétences numériques. Les dates et justificatifs peuvent être ajoutés lorsqu'ils sont disponibles.</p></div>
+      <div class="section-heading"><p class="eyebrow">VALIDER LES ACQUIS</p><h1 id="certifications-title">Certifications & attestations</h1><p>Parcours et ressources de validation des compétences numériques.</p></div>
       <div class="cert-grid">
-        <article class="cert-card"><div class="cert-symbol">CC</div><span class="cert-type">RÉSEAUX</span><h2>Introduction aux réseaux</h2><p class="cert-provider">Cisco Networking Academy</p><p>Fondamentaux des réseaux, modèles OSI et TCP/IP, adressage, commutation et principes de configuration réseau.</p><a class="text-link" href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy <span>↗</span></a><p class="cert-footnote"></p></article>
-        <article class="cert-card"><div class="cert-symbol">PX</div><span class="cert-type">COMPÉTENCES NUMÉRIQUES</span><h2>Pix</h2><p class="cert-provider">Pix</p><p>Évaluation et développement des compétences numériques.</p><a class="text-link" href="https://pix.fr/" target="_blank" rel="noopener">Site officiel Pix <span>↗</span></a><p class="cert-footnote"></p></article>
-        <article class="cert-card"><div class="cert-symbol">SEC</div><span class="cert-type">CYBERSÉCURITÉ</span><h2>SecNumacadémie</h2><p class="cert-provider">ANSSI</p><p>Ressources de sensibilisation aux principes de cybersécurité et aux risques courants.</p><a class="text-link" href="https://secnumacademie.gouv.fr/" target="_blank" rel="noopener">Accéder à la plateforme <span>↗</span></a><p class="cert-footnote"></p></article>
+        <article class="cert-card"><div class="cert-symbol">CC</div><span class="cert-type">RÉSEAUX</span><h2>CCNA 1 — Introduction aux réseaux</h2><p class="cert-provider">Cisco Networking Academy</p><span class="cert-status">Obtenu · juin 2026</span><p>Fondamentaux des réseaux, modèles OSI et TCP/IP, adressage, commutation et principes de configuration réseau.</p><a class="text-link" href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy <span>↗</span></a></article>
+        <article class="cert-card"><div class="cert-symbol">CC</div><span class="cert-type">RÉSEAUX</span><h2>CCNA 2</h2><p class="cert-provider">Cisco Networking Academy</p><span class="cert-status ongoing">En cours</span><p>Suite du parcours CCNA après l'introduction aux réseaux.</p><a class="text-link" href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy <span>↗</span></a></article>
+        <article class="cert-card"><div class="cert-symbol">PX</div><span class="cert-type">COMPÉTENCES NUMÉRIQUES</span><h2>Pix</h2><p class="cert-provider">Pix</p><p>Évaluation et développement des compétences numériques.</p><a class="text-link" href="https://pix.fr/" target="_blank" rel="noopener">Site officiel Pix <span>↗</span></a></article>
+        <article class="cert-card"><div class="cert-symbol">SEC</div><span class="cert-type">CYBERSÉCURITÉ</span><h2>SecNumacadémie</h2><p class="cert-provider">ANSSI</p><p>Ressources de sensibilisation aux principes de cybersécurité et aux risques courants.</p><a class="text-link" href="https://secnumacademie.gouv.fr/" target="_blank" rel="noopener">Accéder à la plateforme <span>↗</span></a></article>
       </div>
     </section>
 
     <section id="contact" class="tab-content" aria-labelledby="contact-title">
-      <div class="contact-layout"><div class="contact-copy"><p class="eyebrow">CONTACT</p><h1 id="contact-title">Parlons de votre infrastructure.</h1><p>Vous recherchez un stagiaire motivé en systèmes et réseaux ? Je serais heureux d'échanger sur vos besoins et sur les compétences que je peux développer au sein de votre équipe.</p><div class="contact-highlight"><span class="availability-dot"></span><div><strong>Stage BTS SIO SISR</strong><span>Du 4 janvier au 13 février 2027 · Montpellier</span></div></div></div><div class="contact-card"><p class="eyebrow">COORDONNÉES</p><div class="contact-row"><span class="contact-icon">@</span><div><small>EMAIL</small><a href="mailto:julien.ludmer.pro@gmail.com">julien.ludmer.pro@gmail.com</a></div></div><div class="contact-row"><span class="contact-icon">⌖</span><div><small>LOCALISATION</small><strong>Perpignan · Montpellier recherché pour le stage</strong></div></div><div class="contact-row"><span class="contact-icon">in</span><div><small>LINKEDIN</small><span class="muted">www.linkedin.com/in/julien-ludmer
-
-</span></div></div><a class="btn btn-primary btn-wide" href="mailto:julien.ludmer.pro@gmail.com?subject=Contact%20%E2%80%94%20Portfolio%20Julien%20Ludmer">Envoyer un email <span aria-hidden="true">↗</span></a><a class="btn btn-secondary btn-wide" target = _blank href="./docs/CV_Julien_Ludmer_BTS_SIO_SISR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a></div></div>
+      <div class="contact-layout"><div class="contact-copy"><p class="eyebrow">CONTACT</p><h1 id="contact-title">Parlons de votre infrastructure.</h1><p>Vous recherchez un stagiaire motivé en systèmes et réseaux ? Je serais heureux d'échanger sur vos besoins et sur les compétences que je peux développer au sein de votre équipe.</p><div class="contact-highlight"><span class="availability-dot"></span><div><strong>Stage BTS SIO SISR</strong><span>Du 4 janvier au 13 février 2027 · Montpellier</span></div></div></div><div class="contact-card"><p class="eyebrow">COORDONNÉES</p><div class="contact-row"><span class="contact-icon">@</span><div><small>EMAIL</small><a href="mailto:julien.ludmer.pro@gmail.com">julien.ludmer.pro@gmail.com</a></div></div><div class="contact-row"><span class="contact-icon">⌖</span><div><small>LOCALISATION</small><strong>Perpignan · Montpellier recherché pour le stage</strong></div></div><div class="contact-row"><span class="contact-icon">in</span><div><small>LINKEDIN</small><a href="https://www.linkedin.com/in/julien-ludmer" target="_blank" rel="noopener">www.linkedin.com/in/julien-ludmer</a></div></div><div class="contact-row"><span class="contact-icon">GH</span><div><small>GITHUB</small><a href="https://github.com/julienludmerpro-dotcom" target="_blank" rel="noopener">github.com/julienludmerpro-dotcom</a></div></div><a class="btn btn-primary btn-wide" href="mailto:julien.ludmer.pro@gmail.com?subject=Contact%20%E2%80%94%20Portfolio%20Julien%20Ludmer">Envoyer un email <span aria-hidden="true">↗</span></a><a class="btn btn-secondary btn-wide" target="_blank" rel="noopener" href="./docs/CV_Julien_Ludmer_BTS_SIO_SISR.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a></div></div>
     </section>
   </main>
 
@@ -142,6 +166,8 @@
       <p class="modal-file-note" id="modal-file-note" role="status"></p>
     </div>
   </div>
+
+  <dialog id="lightbox" aria-label="Capture agrandie"><img alt=""></dialog>
 
   <script>
     (() => {
@@ -218,7 +244,18 @@
       modal.addEventListener('click', event => { if (event.target === modal) closeModal(); });
       document.addEventListener('keydown', event => { if (event.key === 'Escape' && modal.classList.contains('open')) closeModal(); });
       [dossierLink, rapportLink].forEach(link => link.addEventListener('click', event => { if (!link.href || link.getAttribute('href') === '#') event.preventDefault(); }));
+      // Agrandissement des captures : clic sur une miniature, Échap ou clic pour fermer
+      const lightbox = document.getElementById('lightbox');
+      document.addEventListener('click', event => {
+        const shot = event.target.closest('.gallery button');
+        if (!shot) return;
+        const img = lightbox.querySelector('img');
+        img.src = shot.dataset.full; img.alt = shot.dataset.alt || '';
+        lightbox.showModal();
+      });
+      lightbox.addEventListener('click', () => lightbox.close());
     })();
+
   </script>
 </body>
 </html>
