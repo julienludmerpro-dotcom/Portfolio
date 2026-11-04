@@ -96,6 +96,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
 .skills h3 { font: 500 .85rem var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--blue-link); padding-bottom: .6rem; border-bottom: 1px solid var(--line); margin-bottom: .8rem; }
 .skills li { padding: .25rem 0; }
+.certs .btn { margin-top: .6rem; }
 
 /* Parcours */
 .timeline { border-left: 2px solid var(--line); margin-left: .3rem; }
